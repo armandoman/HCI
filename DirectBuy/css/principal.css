@@ -1,0 +1,155 @@
+/*------------ GENERALES ---------*/
+.flexible{
+	max-width:100%;	
+}
+
+body{
+	font-size:18px;
+	font-family: 'Ubuntu Mono';
+}
+
+/*------------ ENCABEZADO ---------*/
+header {
+	/* 2 digitos rojo
+	 * 2 digitos para verde
+	 * 2 digitos para azul
+	 */
+	background-color: #e44d26;
+	/* RGB y A= ALPHA CHANNEL del 0 al 1*/
+	color:white;
+}
+
+nav li{
+	display:inline-block;
+}	
+
+header h1{
+	margin-top:0em;
+	margin-bottom:0em;
+	padding:1em;
+}
+
+nav ul{
+	margin-top:0em;
+	margin-bottom:0em;	
+}
+
+/*------------ PRESENTACION ---------*/
+#presentacion{
+	background-image:url("../imagenes/portadas/portada3.jpg");
+	background-repeat:no-repeat;
+	                /* ANCHO ALTO */
+	background-size:cover;
+	background-attachment:fixed;
+	color:white;
+	line-height:30em;	
+	height:30em;
+	text-align:center;
+}
+
+#presentacion h1{
+	margin-top:0em;
+	margin-bottom:0em;
+}
+
+
+/*------------ SERVICIOS ---------*/
+#servicios {
+	background-color: #f5f5f5;
+	padding:2em;
+}
+
+.servicio{	
+	display:inline-block;	
+	text-align:center;
+	transition:all 0.5s ease;	
+	width:32%;	
+}
+
+.servicio:hover{
+	-webkit-transform:translateY(-3em);
+}
+
+/*------------ TESTIMONIOS ---------*/
+#testimonios {
+	background-color: #454545;
+	color:white;	
+	padding:2em; /* 1em = 18px */
+}
+
+.testimonio{
+	display:inline-block;
+	vertical-align:top;
+	width:48%;
+}
+
+#suscribir{
+	display:inline-block;	
+	vertical-align:top;
+	width:30%;
+}
+
+#sociales{
+	display:inline-block;
+	width:69%;
+}
+
+/*------------ PIE DE PAGINA ---------*/
+footer {	
+	background-color: rgb(52, 52, 52);
+	border-top:3px solid #e95644;	
+	color:white;
+	padding:2em;
+}
+
+#suscribir-email{
+	color:black;
+	/** CAMBIA EL ANCHO, QUE DURE 1 SEG EL CAMBIO, QUE SEA LINEAL */
+	transition:all 1s linear;
+	width:10em;	
+}
+
+#suscribir-email:focus{
+	width:13em;
+}
+
+/** ----------- SOL EJERCICIO --------------------**/
+/*estado inicial*/
+#sociales img{
+	transition:all 0.5s ease;
+}
+
+#sociales img:hover{
+	-webkit-transform:rotate(140deg);	
+}
+
+#menu{
+  width:100%;
+  padding:0px;
+  margin:0px;
+  list-style-type:none;
+}
+#menu a {
+  float:left;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  color:#FFF;
+  background-color:#e44d26;
+  padding:3px 5px;
+  }
+#menu a:hover {
+  background-color:#1B4769;
+}
+ul li{
+	color:#FFF;
+	display:inline-block;
+	
+}
+#video1{
+	color:#900;
+}
+
+
+
+
